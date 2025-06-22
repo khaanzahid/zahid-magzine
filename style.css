@@ -1,0 +1,81 @@
+body{
+    margin: 30px;
+  
+    background-color: #faf9f6;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1{
+text-align: center;
+font-size:xx-large;
+font-weight: 300;
+font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color: #1b1b60;
+    font-family: 'Courier New', Courier, monospace;
+}
+.old{
+    color: #1b1b60;
+    
+}
+.modern{
+    color:rgb(145, 36, 36)
+}
+.black{
+    float:right;
+    width: 40%;
+    padding-top:50px ;
+    margin-left: 20px;
+
+}
+.para1{
+    padding-block: 15px;
+    margin-right:40px;
+}
+.orange{
+    width: 50%;
+    height: 30%;
+    padding-top: 50px;
+    float: left;
+    clear: both;
+    margin-right: 20px;
+}
+.par{
+    clear:right;
+    padding-top: 10px;
+    padding-left:100px ;
+    padding-block: 20px;
+    
+ 
+}
+footer{
+    clear: both;
+    text-align: end;
+}
+@media(max-width:600px){
+    h1{
+text-align: center;
+font-size:x-large;
+font-weight: 200;
+font-family: 'Courier New', Courier, monospace;
+}
+.card img{
+     margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+}
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+}
+
+
